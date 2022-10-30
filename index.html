@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Datos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <a href="/">
+                        <img src="imagenes/Logo_pagina.png" alt="Logo Pagina">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="/">Inicio</a>
+                    <a href="arreglos.html">Arreglos</a>
+                    <a href="listas.html">Listas Enlazadas</a>
+                    <a href="pilas.html">Pilas</a>
+                    <a href="colas.html">Colas</a>
+                    <a href="arboles.html">Arboles</a>
+                    <a href="grafos.html">Grafos</a>
+                </nav>
+            </div>
+        </div>
+   </header> 
+   <main class="contenedor">
+        <h1 class="fw-700 centrar">Estructuras de Datos</h1>
+        <div class="">
+            <div class="seccion">
+                <h2>Que Son las Estructuras de datos</h2>
+                <p class="justificado"><img src="imagenes/imagen_1.png" class="float-right" alt="Imagen Hash">En ciencias de la computación, una estructura de datos. es una forma particular de organizar 
+                    información en un computador para que pueda ser utilizada de manera eficiente. Diferentes tipos de 
+                    estructuras de datos son adecuados para diferentes tipos de aplicaciones, y algunos son altamente 
+                    especializados para tareas específicas. 
+                    Las estructuras de datos son medios para manejar grandes cantidades de información de manera eficiente 
+                    para usos tales como grandes bases de datos y servicios de indización de Internet. Por lo general, las 
+                    estructuras de datos eficientes son clave para diseñar algoritmos eficientes. Algunos métodos formales de 
+                    diseño de lenguajes de programación destacan las estructuras de datos, en lugar de los algoritmos, 
+                    como el factor clave de organización en el diseño de software. Más precisamente, una estructura de datos 
+                    es una colección de valores, las relaciones entre ellos y las funciones y operaciones que se pueden aplicar 
+                    a los datos. es decir, es una estructura algebraica sobre datos
+                </p>
+                <p class="justificado">Las estructuras de datos son medios para manejar grandes cantidades de información de manera eficiente para usos 
+                    tales como grandes bases de datos y servicios de indización de Internet. Por lo general, las estructuras de datos 
+                    eficientes son clave para diseñar algoritmos eficientes. Algunos métodos formales de diseño de lenguajes de 
+                    programación destacan las estructuras de datos, en lugar de los algoritmos, como el factor clave de organización 
+                    en el diseño de software. Más precisamente, una estructura de datos es una colección de valores, las relaciones 
+                    entre ellos y las funciones y operaciones que se pueden aplicar a los datos.es decir, es una estructura algebraica sobre datos.
+                </p>
+            </div>
+            <div class="seccion">
+                <h2>Para que sirven las estructuras de datos</h2>
+                <p class="justificado">
+                    En el ámbito de la informática, las estructuras de datos son aquellas que nos permiten, como desarrolladores, organizar la 
+                    información de manera eficiente, y en definitiva diseñar la solución correcta para un determinado problema.
+                </p>
+                <p class="justificado">
+                    Ya sean las más utilizadas comúnmente -como las variables, arrays, conjuntos o clases- o las diseñadas para un propósito
+                    específico -árboles, grafos, tablas, etc.-, una estructura de datos nos permite trabajar en un algo nivel de abstracción 
+                    almacenando información para luego acceder a ella, modificarla y manipularla.
+                </p>
+            </div>
+            <div class="seccion">
+                <h2>Tipos de Estructuras de datos</h2>
+                <p class="justificado">
+                    Primero, debemos diferenciar entre estructura de dato estática y estructura de dato dinámica
+                </p>
+                <h3>Estructuras de datos estaticas</h3>
+                <p class="justificado">
+                    Las estructuras de datos estáticas son aquellas en las que el tamaño ocupado en memoria se define antes de que el programa se 
+                    ejecute y no puede modificarse dicho tamaño durante la ejecución del programa, mientras que una estructura de datos dinámica es 
+                    aquella en la que el tamaño ocupado en memoria puede modificarse durante la ejecución del programa.
+                    Cada tipo de estructura dependerá del tipo de aplicación que se requiera. Una típica dentro de las estructuras de datos estáticas son los arrays o Arreglos
+                </p>
+                <h3>Estructuras de datos dinamicas</h3>
+                <p class="justificado">Por otro lado, vimos que en programación existen estructuras de datos dinámicas, es decir, una colección de elementos -nodos- que 
+                    normalmente se utilizan para dejar asentados registros. A diferencia de un array que contiene espacio para almacenar un número fijo de elementos, 
+                    una estructura dinámica de datos se amplía y contrae durante la ejecución del programa. Veamos algunos casos
+                </p>
+                <h4>Estructuras de datos lineales</h4>
+                <p class="justificado">
+                    Por otro lado, vimos que en programación existen estructuras de datos dinámicas, es decir, una colección de elementos -nodos- que normalmente se 
+                    utilizan para dejar asentados registros. A diferencia de un array que contiene espacio para almacenar un número fijo de elementos, una estructura 
+                    dinámica de datos se amplía y contrae durante la ejecución del programa. Veamos algunos casos
+                    <ul>
+                        <li>Listas Enlazadas</li>
+                        <li>Pilas</li>
+                        <li>Colas</li>
+                    </ul>
+                </p>
+                <h4>Estructuras de datos no lineales</h4>
+                <p class="justificado">
+                    Las estructuras de datos no lineales, también llamadas multienlazadas, son aquellas en las que cada elemento puede estar enlazado a cualquier otro 
+                    componente. Es decir, cada elemento puede tener varios sucesores o varios predecesores. <p> Existen dos tipos</p>
+                    <ul>
+                        <li>Arboles</li>
+                        <li>Grafos</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+   </main>
+   <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="/">Inicio</a>
+                <a href="arreglos.html">Arreglos</a>
+                <a href="listas.html">Listas Enlazadas</a>
+                <a href="pilas.html">Pilas</a>
+                <a href="colas.html">Colas</a>
+                <a href="arboles.html">Arboles</a>
+                <a href="grafos.html">Grafos</a>
+            </nav>
+        
+            <p class="copiright">Todos los derechos reservados&copy;</p>
+        </div>
+    </footer>
+</body>
+</html>

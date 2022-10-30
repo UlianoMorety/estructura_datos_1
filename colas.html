@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <a href="/">
+                        <img src="imagenes/Logo_pagina.png" alt="Logo Pagina">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="/">Inicio</a>
+                    <a href="arreglos.html">Arreglos</a>
+                    <a href="listas.html">Listas Enlazadas</a>
+                    <a href="pilas.html">Pilas</a>
+                    <a href="colas.html">Colas</a>
+                    <a href="arboles.html">Arboles</a>
+                    <a href="grafos.html">Grafos</a>
+                </nav>
+            </div>
+        </div>
+   </header>
+   <main class="contenedor">
+    <h1 class="fw-700 centrar">Estructuras de Datos</h1>
+    <div class="seccion">
+        <h2>Colas</h2>
+        <h3>Definicion</h3>
+        <p class="justificado">Una cola es un grupo ordenado de elementos del mismo tipo, 
+            en la cual dichos elementos se añaden por un extremo (Final) y se quitan por el otro extremo (Frente). Esto significa que los elementos 
+            se sacan en el mismo orden en el que fueron insertados o introducidos en la cola, siendo por ello considerada como una estructura de datos 
+            FIFO (First In First Out), es decir, que el primer elemento en entrar es el primer elemento en salir.</p>
+            <div class="pila"><img src="imagenes/Cola.svg.png" alt="colas"></div>
+        <p>
+            A modo de ejemplo, una estructura FIFO funciona exactamente igual que una cola en un establecimiento, cuando llegas lo primero que debes hacer es pedir la vez, 
+            en ese momento te sitúas detrás del último que llegó, esto es, al final de la cola. A la hora de atender, el dependiente atiende a quién ocupa la primera 
+            posición de la cola, y así sucesivamente hasta que te toque a ti.
+            Otros ejemplos del uso de colas pueden ser una cola para la impresión de documentos, o en un videojuego la animación de varios elementos en movimiento dentro de la 
+            pantalla, así se crea una cola para ir animando uno a uno los personajes del juego, de forma que cuando avanzamos alguno una posición se manda otra vez al final de la cola, 
+            lo que da la sensación de que se están moviendo todos simultáneamente.
+        </p>
+        <h3>Operaciones con Colas</h3>
+        <p class="justificado">
+            Para manejar una estructura de datos de tipo cola, un programador debe definir un conjunto de operaciones que permitan al usuario acceder y manipular los elementos almacenados en ella. 
+            La terminología más común utilizada para referenciar este conjunto de operaciones es la mostrada a continuación:
+        </p>
+        <ul>
+            <li>InicializarCola: nos permite dejar inicialmente vacía la cola una vez creada.</li>
+            <li>Encolar: permite añadir un elemento al final de la cola.</li>
+            <li>Desencolar: se usará para sacar un elemento de la cola.</li>
+            <li>ColaVacia: devolverá cierto si la cola está vacía antes de sacar un elemento de la misma.</li>
+            <li>ColaLlena: sólo en aquellos casos en los que sea necesario determinar si la cola se encuentra llena antes de añadir un nuevo elemento debido a la implementación utilizada 
+                (sólo en el caso de implementación con tablas), emplearemos esta operación de tipo lógico.</li>
+        </ul>
+       
+    </div>
+
+</main>
+   <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="/">Inicio</a>
+            <a href="arreglos.html">Arreglos</a>
+            <a href="listas.html">Listas Enlazadas</a>
+            <a href="pilas.html">Pilas</a>
+            <a href="colas.html">Colas</a>
+            <a href="arboles.html">Arboles</a>
+            <a href="grafos.html">Grafos</a>
+        </nav>
+    
+        <p class="copiright">Todos los derechos reservados&copy;</p>
+    </div>
+</footer>
+</body>
+</html>

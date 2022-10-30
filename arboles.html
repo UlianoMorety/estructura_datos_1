@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arboles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <a href="/">
+                        <img src="imagenes/Logo_pagina.png" alt="Logo Pagina">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="/">Inicio</a>
+                    <a href="arreglos.html">Arreglos</a>
+                    <a href="listas.html">Listas Enlazadas</a>
+                    <a href="pilas.html">Pilas</a>
+                    <a href="colas.html">Colas</a>
+                    <a href="arboles.html">Arboles</a>
+                    <a href="grafos.html">Grafos</a>
+                </nav>
+            </div>
+        </div>
+   </header>
+   <main class="contenedor">
+    <h1 class="fw-700 centrar">Estructuras de Datos</h1>
+    <div class="seccion">
+        <h2>Arboles Binarios</h2>
+        <h3>Definicion</h3>
+        <p>
+            Árbol binario. A los arboles ordenados de grado dos se les conoce como arboles binarios ya que cada nodo del árbol no tendrá 
+            más de dos descendientes directos. Las aplicaciones de los arboles binarios son muy variadas ya que se les puede utilizar 
+            para representar una estructura en la cual es posible tomar decisiones con dos opciones en distintos puntos.
+            La representación gráfica de un árbol binario es la siguiente:
+        </p>
+        <div class="centrar"><img src="imagenes/Árbol_binario.jpg" alt="arbol binario"></div>
+        <p class="justificado">Hay dos formas tradicionales de representar un árbol binario en memoria:<br>
+            Por medio de datos tipo punteros también conocidos como variables dinámicas o listas. <br>
+            Por medio de arreglos.<br>
+            Sin embargo la más utilizada es la primera, puesto que es la más natural para tratar este tipo de estructuras. <br>
+            Los nodos del árbol binario serán representados como registros que contendrán como mínimo tres campos. En un campo se almacenará la información del nodo. <br>
+            Los dos restantes se utilizarán para apuntar al subarbol izquierdo y derecho del subarbol en cuestión.
+        </p>
+        <h3>recorrido de un arbol binario</h3>
+        <p class="justificado">
+            Hay tres maneras de recorrer un árbol: en inorden, preorden y postorden. Cada una de ellas tiene una secuencia distinta para analizar el árbol como se 
+            puede ver a continuación:
+
+            <h4>Inorden</h4> 
+            <ul>
+                <li>Recorrer el subarbol izquierdo en inorden.</li>
+                <li>Examinar la raíz.</li>
+                <li>Recorrer el subarbol derecho en inorden.</li>
+            </ul>
+            
+            <h4>Preorden</h4>
+            <ul>
+                <li>Examinar la raíz.</li>
+                <li>Recorrer el subarbol izquierdo en preorden.</li>
+                <li>recorrer el subarbol derecho en preorden.</li>
+            </ul>
+            
+            <h4>Posorden</h4>
+            <ul>
+                <li>Recorrer el subarbol izquierdo en postorden.</li>
+                <li>Recorrer el subarbol derecho en postorden.</li>
+                <li>Examinar la raíz.</li>
+            </ul>
+            
+            <h4>Ejemplo de los diferentes recorridos en un árbol binario.</h4>
+            <div class="centrar"><img src="imagenes/arbol2.jpg" alt="ejemplo de recorrido de arbol"></div>
+            <ul>
+                <li>Inorden: GDBHEIACJKF</li>
+                <li>Preorden: ABDGEHICFJK</li>
+                <li>Postorden: GDHIEBKJFCA</li>
+            </ul>
+        </p>
+    </div>
+
+</main>
+   <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="/">Inicio</a>
+            <a href="arreglos.html">Arreglos</a>
+            <a href="listas.html">Listas Enlazadas</a>
+            <a href="pilas.html">Pilas</a>
+            <a href="colas.html">Colas</a>
+            <a href="arboles.html">Arboles</a>
+            <a href="grafos.html">Grafos</a>
+        </nav>
+    
+        <p class="copiright">Todos los derechos reservados&copy;</p>
+    </div>
+</footer>
+</body>
+</html>

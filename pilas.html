@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <a href="/">
+                        <img src="imagenes/Logo_pagina.png" alt="Logo Pagina">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="/">Inicio</a>
+                    <a href="arreglos.html">Arreglos</a>
+                    <a href="listas.html">Listas Enlazadas</a>
+                    <a href="pilas.html">Pilas</a>
+                    <a href="colas.html">Colas</a>
+                    <a href="arboles.html">Arboles</a>
+                    <a href="grafos.html">Grafos</a>
+                </nav>
+            </div>
+        </div>
+   </header>
+   <main class="contenedor">
+    <h1 class="fw-700 centrar">Estructuras de Datos</h1>
+    <div class="seccion">
+        <h2>Pilas</h2>
+        <h3>Definicions</h3>
+        <p class="justificado">
+            Una pila es una estructura de datos dinámica formada por un grupo ordenado de elementos homogéneos (todos del mismo tipo) en la que 
+            los elementos sólo pueden ser añadidos o eliminados por un extremo llamado cabecera o cima (top) de la pila.
+            De esta forma, los elementos se extraen en orden inverso al seguido en el proceso de inserción. Por ello, una pila es considerada una 
+            estructura de datos LIFO (Last In First Out), esto es, que el último elemento que entra es el primero que sale.
+        </p>
+        <div class="pila"><img src="imagenes/pila.png" alt="Pila"></div>
+        <p class="justificado">Recibe su nombre por su similitud con una pila de objetos; si tenemos una pila de 5 libros, siempre cogemos el de arriba, 
+        que es el último que se dejó. Si queremos leer un libro que está en cuarto lugar debemos coger primero el quinto libro y a continuación el cuarto.</p>
+        <h3>Operaciones con pilas</h3>
+        <p>Las operaciones básicas que podemos realizar sobre una pila son dos: almacenamiento (push) y recuperación (pop). Para manejar una estructura de datos tipo pila, 
+        un programador debe definir un conjunto de operaciones que permitan al usuario acceder y manipular los elementos en ella almacenados. Más adelante se detallará cómo en 
+        PHP existen una gran cantidad de funciones predefinidas que permiten gestionar esta estructura de datos de forma eficiente.
+        Generalmente, cada una de estas operaciones suele recibir un nombre fijo e identificativo de la operación que realiza, siendo la terminología utilizada más común la mostrada a continuación:</p>
+        <ul>
+            <li>Meter o Apilar: se denomina así a la operación que añade un elemento a una pila.</li>
+            <li>Sacar o Desapilar: operación que saca un elemento de la pila.</li>
+            <li>InicializarPila: una vez creada la pila y antes de usarla, esta debe quedar inicialmente vacía.</li>
+            <li>PilaVacia: operación que devuelve un valor de tipo lógico para comprobar si la pila se encuentra vacía antes de sacar un elemento.</li>
+            <li>PilaLlena: la usaremos en aquellos casos en que sea necesario saber si la pila se encuentra llena antes de añadir un nuevo elemento.</li>
+            <li>Cima: útil para obtener el último elemento que fue añadido a la pila, este es, el primero en salir de ella.</li>
+        </ul>  
+        
+    </div>
+
+</main>
+   <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="/">Inicio</a>
+            <a href="arreglos.html">Arreglos</a>
+            <a href="listas.html">Listas Enlazadas</a>
+            <a href="pilas.html">Pilas</a>
+            <a href="colas.html">Colas</a>
+            <a href="arboles.html">Arboles</a>
+            <a href="grafos.html">Grafos</a>
+        </nav>
+    
+        <p class="copiright">Todos los derechos reservados&copy;</p>
+    </div>
+</footer>
+</body>
+</html>

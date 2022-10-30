@@ -1,0 +1,175 @@
+/** Globales **/
+
+html{
+    font-size: 62.5%;/*     RESET de rems: 62.5% = 10px de 16px */
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 2rem;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+    margin-top: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+.contenedor{
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 95%;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+ul li{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+ol li{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+/*Utilidades*/
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.fw-400{
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    display: block;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+.centrar{
+    text-align: center;
+}
+
+.contenido-centrado{
+    max-width: 800px;
+}
+
+.float-right{
+    float: right;
+}
+
+.justificado{
+    text-align: justify;
+}
+/*Header*/
+
+.site-header{
+    padding: 1rem 0 3rem 0;
+}
+
+.barra{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: flex-end;
+    display: block;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img{
+    max-height: 20rem;
+
+}
+.contenido-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    text-align: left;
+}
+.navegacion{
+    background-color: rgb(0, 0, 255);
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegacion a{
+    color:rgb(253, 227, 28);
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
+
+/*Final Header*/
+
+/*Inicio Main*/
+
+main p img{
+    height: 30rem;
+    width: 30rem;
+}
+
+
+
+
+
+/*Footer*/
+.site-footer{
+    background-color: rgb(0, 0, 255);
+    margin: 0;
+}
+
+.contenedor-footer{
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-footer nav{
+    display: block;
+}
+.copiright{
+    color:rgb(253, 227, 28);
+    margin: 0;
+}
+
+.pila img{
+    width:30rem;
+}

@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Enlazadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <a href="/">
+                        <img src="imagenes/Logo_pagina.png" alt="Logo Pagina">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="/">Inicio</a>
+                    <a href="arreglos.html">Arreglos</a>
+                    <a href="listas.html">Listas Enlazadas</a>
+                    <a href="pilas.html">Pilas</a>
+                    <a href="colas.html">Colas</a>
+                    <a href="arboles.html">Arboles</a>
+                    <a href="grafos.html">Grafos</a>
+                </nav>
+            </div>
+        </div>
+   </header>
+   <main class="contenedor">
+    <h1 class="fw-700 centrar">Estructuras de Datos</h1>
+    <div class="seccion">
+        <h2>Estructura Lista Enlazada.</h2>
+        <h3>Definicion</h3>
+        <p class="justificado">
+            La lista enlazada es un TDA que nos permite almacenar datos de una forma organizada, al igual que los vectores pero, a 
+            diferencia de estos, esta estructura es dinámica, por lo que no tenemos que saber "a priori" los elementos que puede contener.
+            En una lista enlazada, cada elemento apunta al siguiente excepto el último que no tiene sucesor y el valor del enlace es null. 
+            Por ello los elementos son registros que contienen el dato a almacenar y un enlace al siguiente elemento. Los elementos de una 
+            lista, suelen recibir también el nombre de nodos de la lista.
+        </p>
+        <p>
+            <ol>
+                <li>Representa el dato a almacenar. Puede ser de cualquier tipo; en este ejemplo se trata de una lista de enteros.</li>
+                <li>Es un puntero al siguiente elemento de la lista; con este puntero enlazamos con el sucesor, de forma que podamos construir la lista.</li>
+            </ol>
+           
+        </p>
+        <div class="logo"><img src="imagenes/lista.png" alt="Listas Enlazadas"></div>
+        <p class="justificado">Para que esta estructura sea un TDA lista enlazada, debe tener unos operadores asociados que permitan la 
+            manipulación de los datos que contiene. Los operadores básicos de una lista enlazada son:</p>
+            <ul>
+                <li>Insertar: inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden.</li>
+                <li>Eliminar: elimina un nodo de la lista, puede ser según la posición o por el dato.</li>
+                <li>Buscar: busca un elemento en la lista.</li>
+                <li>Localizar: obtiene la posición del nodo en la lista.</li>
+                <li> Vaciar: borra todos los elementos de la lista</li>
+            </ul> 
+        <p class="justificado">Después de esta breve introducción, que sólo pretende servir como recordatorio, pasaremos a ver cómo es la estructura GSList que, 
+            junto con el conjunto de funciones que la acompañan, forman el TDA lista enlazada en GLib™.
+        </p>
+    </div>
+
+</main>
+   <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="/">Inicio</a>
+            <a href="arreglos.html">Arreglos</a>
+            <a href="listas.html">Listas Enlazadas</a>
+            <a href="pilas.html">Pilas</a>
+            <a href="colas.html">Colas</a>
+            <a href="arboles.html">Arboles</a>
+            <a href="grafos.html">Grafos</a>
+        </nav>
+    
+        <p class="copiright">Todos los derechos reservados&copy;</p>
+    </div>
+</footer>
+</body>
+</html>
